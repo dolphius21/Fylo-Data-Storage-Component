@@ -1,0 +1,18 @@
+$primary-color: hsl(228, 56%, 26%);
+$secondary-color: hsl(243, 100%, 93%);
+$light-accent-color: hsl(229, 7%, 55%);
+$dark-accent-color: hsl(229, 57%, 11%);
+$gradient: linear-gradient(0deg hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}

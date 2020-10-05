@@ -271,15 +271,14 @@ body {
   border-radius: 50%;
   background: white;
   cursor: pointer;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
 }
 
 .slider-container .range-slider #slider::-moz-range-thumb {
   height: 11px;
   width: 11px;
   border-radius: 50%;
-  background: #848794;
+  background: white;
+  border: #ff4d97 2px solid;
   cursor: pointer;
 }
 
@@ -287,7 +286,8 @@ body {
   height: 11px;
   width: 11px;
   border-radius: 50%;
-  background: #848794;
+  background: white;
+  border: #ff4d97 2px solid;
   cursor: pointer;
 }
 

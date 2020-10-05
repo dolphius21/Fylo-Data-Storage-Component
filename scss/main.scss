@@ -206,14 +206,14 @@ body {
       border-radius: 50%;
       background: white;
       cursor: pointer;
-      transition: 0.3s ease-in-out;
     }
 
     #slider::-moz-range-thumb {
       height: 11px;
       width: 11px;
       border-radius: 50%;
-      background: $light-accent-color;
+      background: white;
+      border: rgba(255, 77, 151, 1) 2px solid;
       cursor: pointer;
     }
 
@@ -221,7 +221,8 @@ body {
       height: 11px;
       width: 11px;
       border-radius: 50%;
-      background: $light-accent-color;
+      background: white;
+      border: rgba(255, 77, 151, 1) 2px solid;
       cursor: pointer;
     }
   }

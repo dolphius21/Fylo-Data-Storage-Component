@@ -92,36 +92,8 @@ body {
     }
   }
 
-  .slider-tooltip {
+  .tooltip-container-lg {
     position: relative;
-  }
-
-  .tooltip-sml {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    color: $dark-accent-color;
-    background: white;
-    border-radius: 0.5rem;
-    min-width: 150px;
-    top: 50px;
-    left: 22%;
-    right: 22%;
-    @include media-lg {
-      display: none;
-    }
-
-    .storage-count {
-      font-size: 2rem;
-      font-weight: 700;
-      margin: 0 0.25rem 0.25rem 0;
-    }
-
-    p {
-      font-size: 0.8rem;
-    }
   }
 
   .tooltip-lg {
@@ -131,12 +103,12 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 0.5rem 1rem;
+      padding: 1rem 1.5rem;
       color: $dark-accent-color;
       background: white;
       border-radius: 0.5rem 0.5rem 0 0.5rem;
       max-width: 190px;
-      bottom: 40px;
+      bottom: 10px;
       right: 0;
     }
 
@@ -232,6 +204,37 @@ body {
     justify-content: space-between;
     font-size: 0.7rem;
     font-weight: 700;
+  }
+}
+
+.tooltip-container-sml {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.tooltip-sml {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  color: $dark-accent-color;
+  background: white;
+  border-radius: 0.5rem;
+  top: -45px;
+  @include media-lg {
+    display: none;
+  }
+
+  .storage-count {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0.25rem 0.25rem 0;
+  }
+
+  p {
+    font-size: 0.8rem;
   }
 }
 

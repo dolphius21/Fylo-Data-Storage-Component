@@ -52,31 +52,27 @@
           </div>
         </div>
         <div class="slider-container">
-          <label class="range-info">You’ve used <span id="data">185</span> of your storage</label>
-          <div class="slider-tooltip">
-            <div class="tooltip-sml">
-              <p class="storage-count">185</p>
-              <p>GB left</p>
-            </div>
+          <div class="tooltip-container-lg">
             <div class="tooltip-lg">
               <p class="storage-count">185</p>
               <p>GB left</p>
             </div>
           </div>
           <div class="range-slider">
-            <input
-              type="range"
-              id="slider"
-              aria-labelledby="undefined"
-              min="0"
-              max="1000"
-              value="815"
-              disabled
-            />
+            <label class="range-info" for="slider"
+              >You’ve used <span id="data">185</span> of your storage</label
+            >
+            <input type="range" id="slider" name="slider" min="0" max="1000" value="815" disabled />
           </div>
           <div class="min-max">
             <span>0 GB</span>
             <span>1000 GB</span>
+          </div>
+        </div>
+        <div class="tooltip-container-sml">
+          <div class="tooltip-sml">
+            <p class="storage-count">185</p>
+            <p>GB left</p>
           </div>
         </div>
       </div>
